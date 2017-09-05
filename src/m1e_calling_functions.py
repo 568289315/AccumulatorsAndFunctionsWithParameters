@@ -52,7 +52,6 @@ def main():
 
     hello_and_goodbye()
 
-
 def hello():
     """ Prints a welcoming message on the console. """
     print('Hello!  How are things?')
