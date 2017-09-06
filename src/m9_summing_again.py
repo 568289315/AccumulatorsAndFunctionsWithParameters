@@ -82,7 +82,9 @@ def test_sum_powers_in_range():
     print('Testing the   sum_powers_in_range   function:')
     print('--------------------------------------------------')
     expected =142.38
-    answer =
+    answer = sum_powers_in_range(3,100,0.1)
+    print('Test 1 expected:',expected)
+    print('         actual:',answer)
 
 
 def sum_powers_in_range(m, n, p):
@@ -108,8 +110,8 @@ def sum_powers_in_range(m, n, p):
     #    to test  sum_powers   and (to a lesser extent) vice-versa?
     # ------------------------------------------------------------------
     sum = 0
-    for k in range(n-m):
-        sum = sum + (k+m) **p
+    for k in range(n-m+1):
+        sum = sum + ((k+m) **p)
     return sum
 
 
