@@ -37,7 +37,7 @@ def main():
 def test_sum_of_digits():
     """ Tests the  sum_of_digits   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function, as follows:
+    # DONE: 2. Implement this TEST function, as follows:
     #
     #  Step 1:  This TEST function tests the  sum_of_digits  function.
     #    So read the doc-string of the  sum_of_digits  function
@@ -71,6 +71,22 @@ def test_sum_of_digits():
     # TO DO: 2 (continued).
     # Below this comment, add 3 more test cases of your own choosing.
     # ------------------------------------------------------------------
+
+
+    expected = 15
+    answer = sum_of_digits(735)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+    expected = 17
+    answer = sum_of_digits(5624)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+    expected = 25
+    answer = sum_of_digits(80935)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+
 
 
 def sum_of_digits(number):
