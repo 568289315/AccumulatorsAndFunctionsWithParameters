@@ -164,7 +164,7 @@ def test_digits_in_cube():
 
 
 def digits_in_cube(n):
-    return sum_of_digits(n** 3)
+    return sum_of_digits(n ** 3)
 
 
     """
