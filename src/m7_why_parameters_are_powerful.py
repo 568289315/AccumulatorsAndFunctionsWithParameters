@@ -106,8 +106,9 @@ def better_draw_circles(n):
     window = rg.RoseWindow(400, 400)
 
     center = rg.Point(200, 200)
-    for k in range(n+1):
-        circle = rg.Circle(center, 10 * k)
+
+    for k in range(21):
+        circle = rg.Circle(center, n*k)
         circle.attach_to(window)
         window.render(0.05)
 
