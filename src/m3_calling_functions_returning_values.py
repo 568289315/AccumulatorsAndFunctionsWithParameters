@@ -125,7 +125,7 @@ def sum_of_digits(number):
 def test_digits_in_cube():
     """ Tests the   digits_in_cube   function. """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement this function.
+    # DONE: 3. Implement this function.
     #   It TESTS the  digits_in_cube  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -149,9 +149,24 @@ def test_digits_in_cube():
     print('-----------------------------------------------------')
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
+    expected = 8
+    answer = digits_in_cube(8)
+    print('Test 1 expected:', expected)
+    print('         actual:', answer)
+    expected = 10
+    answer = digits_in_cube(4)
+    print('Test 2 expected:', expected)
+    print('         actual:', answer)
+    expected = 8
+    answer = digits_in_cube(5)
+    print('Test 3 expected:', expected)
+    print('         actual:', answer)
 
 
 def digits_in_cube(n):
+    return sum_of_digits(n** 3)
+
+
     """
     What comes in:  A positive integer.
     What goes out:  The sum of the digits in the CUBE of the integer.
@@ -161,7 +176,7 @@ def digits_in_cube(n):
       this function returns (1 + 2 + 5), which is 8.
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #   That is called TEST-DRIVEN DEVELOPMENT (TDD).
     #
