@@ -151,7 +151,7 @@ def test_even_better_draw_circles():
     print('--------------------------------------------------')
     even_better_draw_circles(50,20,0.1)
     even_better_draw_circles(30,2,0.01)
-    even_better_draw_circles(1000,5,0.0001)
+    even_better_draw_circles(70,5,0.0001)
 
 
 
