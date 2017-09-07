@@ -45,8 +45,8 @@ def print_sequence1():
     print('--------------------------------------------------')
     print('Running print_sequence1:')
     print('--------------------------------------------------')
-    for k in range(201):
-        print(k)
+    for k in range(21):
+        print(k*10)
 
 
 def draw_circles1():
@@ -98,8 +98,9 @@ def print_sequence2():
     print('--------------------------------------------------')
     print('Running print_sequence2:')
     print('--------------------------------------------------')
-    for k in range(341):
-        print(k+50)
+    for k in range(18):
+        x = 50
+        print(x +k*20)
 
 
 
